@@ -29,8 +29,8 @@ const CarouselPage = () => {
                 className="d-block w-100"
                 src={unsplash0}
                 alt="First slide"
-                width="500"
-                height="600"
+                width={500}
+                height={600}
               />
             </MDBView>
           </MDBCarouselItem>
@@ -40,8 +40,8 @@ const CarouselPage = () => {
                 className="d-block w-100"
                 src={unsplash2}
                 alt="Second slide"
-                width="500"
-                height="600"
+                width={500}
+                height={600}
               />
             </MDBView>
           </MDBCarouselItem>
@@ -51,61 +51,13 @@ const CarouselPage = () => {
                 className="d-block w-100"
                 src={unsplash3}
                 alt="Third slide"
-                width="500"
-                height="600"
+                width={500}
+                height={600}
               />
             </MDBView>
           </MDBCarouselItem>
         </MDBCarouselInner>
       </MDBCarousel>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex illum
-        cupiditate voluptatem! Exercitationem veritatis assumenda, aperiam
-        molestias maxime iure. Nam ab itaque iste et dolorem modi pariatur
-        voluptate, eligendi commodi.
-      </div>
     </MDBContainer>
   );
 };
