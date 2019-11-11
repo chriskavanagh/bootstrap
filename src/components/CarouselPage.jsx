@@ -11,7 +11,7 @@ import {
   MDBContainer
 } from "mdbreact";
 
-const CarouselPage = () => {
+const CarouselPage = props => {
   return (
     <MDBContainer className="mt-1">
       <MDBCarousel
